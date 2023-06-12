@@ -1,0 +1,15 @@
+.video
+{
+width:300;
+height:150 ;
+background-color:dark;
+float: left;
+margin-top:10px;
+width: 270px;
+box-shadow: 5px 5px 10px grey;
+padding: 10px;
+margin-right:7px;
+margin-bottom: 15px;
+border: 1px solid grey;
+border-radius: 10px;
+}

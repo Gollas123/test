@@ -1,0 +1,104 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+
+
+        <!-- <form >
+            <input class="form-control" type="text" placeholder="Search" aria-label="Search" [(ngModel)]="searchText" >
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> -->
+
+          <div class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search" aria-label="Search" [(ngModel)]="searchText" >
+           </div> 
+     
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" >
+              <li><a class="dropdown-item" *ngFor="let n of sensorData">{{n.email}}</a></li>
+            </ul>
+          </li> -->
+
+          
+          <!-- <select (change)="onSelect($event)">           
+            <option value="1">choose your option...</option>
+            <option *ngFor="let n of sensorData" value="{{n.id}}" >{{n.sensorName}}</option>
+          </select>
+
+          <select>
+            <option>Select City</option>
+            <option *ngFor="let b of sensorData">{{b.sensorId}}</option>
+          </select> -->
+         
+          <!-- <select (change)="onSelect($event)">
+            <option>Select State</option>
+            <option *ngFor="let states of state" value="{{states.id}}">
+                {{states.name}}
+            </option>
+        </select>
+    
+        <select>
+            <option>Select City</option>
+            <option *ngFor="let cities of city">{{cities.name}}</option>
+        </select> -->
+
+
+          <!-- <li class="nav-item">
+            <a class="nav-link active" routerLink="/alerts">Run</a>
+          </li> -->
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+
+
+
+
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th scope="col">S.No</th>
+        <th scope="col">Date</th>
+        <th scope="col">SensorId</th>
+        <th scope="col">SensorName</th>
+        <th scope="col">SensorType</th>
+        <th scope="col">SensorValue</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr  *ngFor="let data of sensorData | search: searchText">
+        <th scope="row">{{data.id}}</th>        
+        <td>{{date   | date: "MM-dd-yyyy"}}</td>
+        <td>{{data.sensorId}}</td>
+        <td>{{data.sensorName}}</td>
+        <td>{{data.sensorType}}</td>
+        <td>{{data.sensorValue}}</td>
+        <!-- <td ><i class="fa-brands fa-youtube" style="font-size:24px;color:red" ></i><a [href]="data.salary"></a> {{data.salary}}</td>        -->
+      </tr>
+    
+    </tbody>
+  </table>
+
+
+
+  <!-- <div class="container">
+    <select (change)="onSelect($event)">
+        <option>Select State</option>
+        <option *ngFor="let states of state" value="{{states.id}}">
+            {{states.name}}
+        </option>
+    </select>
+
+    <select>
+        <option>Select City</option>
+        <option *ngFor="let cities of city">{{cities.name}}</option>
+    </select>
+</div> -->
+
+  

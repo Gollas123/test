@@ -1,0 +1,164 @@
+{
+  "posts": [
+
+    {
+      "id": 1,
+      "sensorId": 13223,
+      "sensorName": "ultrasonic",
+      "sensorType": "dualportsensor",
+      "sensorValue": "21432423",
+      "url": "https://www.youtube.com/watch?v=ihTB-aZ-Msk/"
+
+  },
+  {
+      "id": 2,
+      "sensorId": 2345,
+      "sensorName": "viewsonic",
+      "sensorType": "multisensor",
+      "sensorValue": "12345",
+      "url": "https://www.youtube.com/watch?v=ihTB-aZ-Msk/"
+  },
+  {
+      "id": 3,
+      "sensorId": 2345,
+      "sensorName": "metal sonic",
+      "sensorType": "utility",
+      "sensorValue": "21432423",
+      "url": "https://www.youtube.com/watch?v=ihTB-aZ-Msk/"
+  },
+  {
+      "id": 4,
+      "sensorId": 4555,
+      "sensorName": "test sensor",
+      "sensorType": "for testing",
+      "sensorValue": "98090",
+      "url": "https://www.youtube.com/watch?v=ihTB-aZ-Msk/"
+  },
+  {
+      "id": 5,
+      "sensorId": 13223,
+      "sensorName": "ultrasonic",
+      "sensorType": "dualportsensor",
+      "sensorValue": "21432423",
+      "url": "https://www.youtube.com/watch?v=ihTB-aZ-Msk/"
+  },
+  {
+      "id": 6,
+      "sensorId": 2345,
+      "sensorName": "viewsonic",
+      "sensorType": "multisensor",
+      "sensorValue": "12345",
+      "url": "https://www.youtube.com/watch?v=ihTB-aZ-Msk/"
+  },
+  {
+      "id": 7,
+      "sensorId": 2345,
+      "sensorName": "metal sonic",
+      "sensorType": "supeer user",
+      "sensorValue": "21432423",
+      "url": "https://www.youtube.com/watch?v=ihTB-aZ-Msk/"
+  },
+  {
+      "id": 8,
+      "sensorId": 4555,
+      "sensorName": "test sensor",
+      "sensorType": "for testing",
+      "sensorValue": "98090",
+      "url": "https://www.youtube.com/watch?v=ihTB-aZ-Msk/"
+  }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "firstName": "mouni",
+      "lastName": "potti",
+      "email": "m@gmail.com",
+      "mobile": "98420234049",
+      "salary": "https://www.youtube.com/watch?v=ihTB-aZ-Msk/"
+    },
+    {
+      "id": 1,
+      "firstName": "mouni",
+      "lastName": "suresh",
+      "email": "mouni@gmail.com",
+      "mobile": "7702223331",
+      "salary": "https://www.youtube.com/watch?v=ihTB-aZ-Msk/"
+    },
+    {
+      "id": 1,
+      "firstName": "mouni",
+      "lastName": "potti",
+      "email": "p@gmail.com",
+      "mobile": "7842034677",
+      "salary": "https://www.youtube.com/watch?v=ihTB-aZ-Msk/"
+    },
+    {
+      "id": 2,
+      "firstName": "suresh",
+      "lastName": "golla",
+      "email": "s@gmail.com",
+      "mobile": "8666866699",
+      "salary": "https://www.youtube.com/watch?v=ihTB-aZ-Msk/"
+    },
+    {
+      "id": 2,
+      "firstName": "suresh",
+      "lastName": "golla",
+      "email": "m@gmail.com",
+      "mobile": "21432423",
+      "salary": "https://www.youtube.com/watch?v=ihTB-aZ-Msk/"
+    },
+    {
+      "id": 2,
+      "firstName": "mouni",
+      "lastName": "potti",
+      "email": "m@gmail.com",
+      "mobile": "98420234049",
+      "salary": "https://www.youtube.com/watch?v=ihTB-aZ-Msk/"
+    },
+    {
+      "id": 3,
+      "firstName": "mouni",
+      "lastName": "suresh",
+      "email": "mouni@gmail.com",
+      "mobile": "7702223331",
+      "salary": "https://www.youtube.com/watch?v=ihTB-aZ-Msk/"
+    },
+    {
+      "id": 3,
+      "firstName": "mouni",
+      "lastName": "potti",
+      "email": "p@gmail.com",
+      "mobile": "7842034677",
+      "salary": "https://www.youtube.com/watch?v=ihTB-aZ-Msk/"
+    },
+    {
+      "id": 3,
+      "firstName": "suresh",
+      "lastName": "golla",
+      "email": "s@gmail.com",
+      "mobile": "8666866699",
+      "salary": "https://www.youtube.com/watch?v=ihTB-aZ-Msk/"
+    },
+    {
+      "id": 4,
+      "firstName": "suresh",
+      "lastName": "golla",
+      "email": "m@gmail.com",
+      "mobile": "21432423",
+      "salary": "https://www.youtube.com/watch?v=ihTB-aZ-Msk/"
+    },
+    {
+      "id": 4,
+      "firstName": "suresh",
+      "lastName": "golla",
+      "email": "m@gmail.com",
+      "mobile": "21432423",
+      "salary": "https://www.youtube.com/watch?v=ihTB-aZ-Msk/"
+    }
+    
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

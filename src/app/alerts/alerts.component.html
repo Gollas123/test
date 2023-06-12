@@ -1,0 +1,74 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+ 
+  <div class="d-flex">
+    <input class="form-control me-2" type="text" placeholder="Search" aria-label="Search" [(ngModel)]="searchText" >
+     </div> 
+
+</nav>
+<table class="table table-bordered">
+    <thead>
+      
+      <tr>
+        <th scope="col">S.No</th>
+        <th scope="col">Date</th>
+        <th scope="col">DevieId</th>
+        <th scope="col">AlertType</th>
+        <th scope="col">VehicleId</th>
+        <th scope="col">url</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <tr  *ngFor="let data of alerts | search: searchText">
+        <th scope="row">{{data.id}}</th>
+        <td>{{date   | date: "MM-dd-yyyy"}}</td>
+        <td>{{data.sensorId}}</td>
+        <td>{{data.sensorName}}</td>
+        <td>{{data.sensorValue}}</td>
+        <td>
+          
+     
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    
+      <div class="modal-body">
+        <!-- <video class="video" style="width: 450px; height: 400px;"   controls >
+          <source [src]="data.url" type="video/mp4">
+        </video> -->
+        <youtube-player
+          [videoId]="id"
+          (ready)="savePlayer($event)"
+          (change)="onStateChange($event)"
+          ></youtube-player>
+        <source [src]="data.url" type="video/mp4">
+      </div>
+      
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      
+    </div>
+  </div>
+</div>
+<i type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"  class="fa-brands fa-youtube" style="font-size:24px;color:red"></i><a [href]="data.url" target="new width:50px; height:50px;" style="width: 200px; height: 200px;">{{data.url}}</a></td>       
+      
+          
+          
+          <!-- <i class="fa-brands fa-youtube" style="font-size:24px;color:red"></i><a [href]="data.url" target="new width:50px; height:50px;" style="width: 200px; height: 200px;">{{data.url}}</a></td>        -->
+      </tr>
+    </tbody>
+  </table>
+
+
+  <!-- <div>
+    <youtube-player
+    [videoId]="id"
+    (ready)="savePlayer($event)"
+    (change)="onStateChange($event)"
+    ></youtube-player>
+
+  </div> -->
+
+
+  
